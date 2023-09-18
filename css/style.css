@@ -1,0 +1,117 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Apply a simple font and background color */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Style the header links */
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  header a:hover {
+    color: #0078d4;
+  }
+
+  /* Remove bullet points from the list of links */
+  header ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  /* Style the main content */
+  #main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Style the skip link */
+  .skip-link {
+    display: block;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .skip-link:hover {
+    background-color: #555;
+  }
+
+  /* Style the individual pet sections */
+  div {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  /* Style the images */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+  }
+
+  /* Add a grid layout to the photo gallery */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px; /* Adjust the gap between images as needed */
+    margin-top: 10px;
+  }
+
+  /* Style the images within the gallery */
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Style the likes list */
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+
+  /* Style the author name */
+  p:last-child {
+    text-align: right;
+    font-style: italic;
+  }
