@@ -86,7 +86,10 @@ body, h1, h2, h3, p, ul, li {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 10px 0;
+    border: 5px solid #d40000; /* Add a border of your choice of color */
+    padding: 10px;
+    margin: 20px 0;
+    border-top-right-radius: 30px;
   }
 
   /* Add a grid layout to the photo gallery */
@@ -105,9 +108,14 @@ body, h1, h2, h3, p, ul, li {
   }
 
   /* Style the likes list */
-  ul {
-    list-style-type: square;
-    padding-left: 20px;
+  ul li {
+    display: inline-block;
+    margin-left: 50px;
+  }
+
+  /* Change the line-height for paragraph tags */
+  p {
+    line-height: 1.8; /* Adjust the value as needed using Inspect Element */
   }
 
   /* Style the author name */
